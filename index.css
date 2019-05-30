@@ -1,0 +1,89 @@
+/* 当屏幕大于576px时候 */
+@media screen and (min-width: 576px) {
+    #content {
+        opacity: 0;
+    }
+
+    .navbar-brand img {
+        height: 100px !important;
+    }
+
+    .main1 {
+        height: 100vh;
+        /* width: 100%; */
+        /* opacity: 0; */
+    }
+    .blank{
+        display:none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* 当屏幕大于576px时候结束 */
+/* 小屏开始 */
+@media (max-width: 575.98px) {
+    .main1 {
+       height:200px;
+    }
+    
+.blank{ clear:both; overflow:hidden; display:block;
+    background-color: black;}
+    .nav1{
+        background-color:rgba(0,0,0,0.6);
+    }
+    
+}
+
+/* 小屏结束 */
+
+.mybanner>div .img {
+    width: 100%;
+    background: url("../images/img-3-large.jpg") center center;
+}
+
+/* .main1 .font1 {
+    vertical-align: middle;
+    vertical-align: baseline;
+} */
+#dd{
+    /* position: relative; */
+}
+.parent1 {
+    position: absolute;
+}
+
+.child1 {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+.nav1{
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index:100;
+}
+.navbar-brand {
+    vertical-align: middle;
+}
