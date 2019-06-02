@@ -1,0 +1,27 @@
+@media (min-width: 576px) {
+  .container {
+    max-width:  100%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width:  100%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+.mybanner>.img:nth-child(1) {
+  background: url("../images/banner1.gif") no-repeat;
+  /* height: 100vh; */
+  background-size: cover;
+  /* background-position:fixed; */
+  background-attachment: fixed;
+}

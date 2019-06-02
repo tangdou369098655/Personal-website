@@ -1,0 +1,8 @@
+.mybanner>.img:nth-child(1) {
+  background: url("../images/banner4.gif") no-repeat;
+  /* height: 100vh; */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
